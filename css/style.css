@@ -10,23 +10,23 @@
 }
 
 header{
-    height: 50px;
+    height: 70px;
     background-color:yellow ;
 }
 
 main {
-    height: calc(100vh - 50px);
+    height: calc(100vh - 70px);
     max-width: 100vw;
 }
 
 .side-bar{
-    height: calc(100vh - 50px);
+    height: calc(100vh - 70px);
     width: 80px;
     background-color: rgb(55, 60, 121);   
 }
 
 .main-section{
-    height: calc(100vh - 50px);
+    height: calc(100vh - 70px);
     width: calc(100vw - 80px);
     background-color: rgb(209, 29, 29);
 }
