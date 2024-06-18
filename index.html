@@ -26,17 +26,21 @@
         <div class="side-bar-top d-flex flex-column align-items-center pt-3">
             <div> 
                 <a href=""><i class="fa-solid fa-house fa-xl mb-5 text-white"></i></a>
+                <span class="d-none d-lg-inline-block text-white ms-1">Home</span>
             </div>
             <div>
                 <i class="fa-solid fa-chart-simple fa-xl mb-5 text-white"></i></a>
+                <span class="d-none d-lg-inline-block text-white ms-1">Stats</span>
             </div>
             <div>
                 <a href=""><i class="fa-solid fa-signal fa-xl text-white"></i></a>
+                <span class="d-none d-lg-inline-block text-white ms-1">Signals</span>
             </div>
         </div>
         <div class="side-bar-bottom d-flex justify-content-center align-items-end mb-5">
             <div>
                 <i class="fa-solid fa-gear fa-xl text-white"></i>
+                <span class="fs-6 d-none d-lg-inline-block ms-2 text-white">Admin</span>
             </div>
         </div>
     </div>
@@ -45,19 +49,19 @@
             <div class="main-section-top bg-primary">
                 <div class="container">
                     <div class="row flex-column flex-lg-row mb-3">
-                        <div class=" col-12 col-md-4 deebug order-lg-1">
+                        <div class=" col-12 col-md-4 order-lg-1">
                             <div class="content deebug d-flex align-items-center text-white">
                                 <h4 class="mx-2">Nuovo Studente</h4>
                                 <span class="border rounded py-2 px-3"><i class="fa-solid fa-plus"></i></span>
                             </div>
                         </div>
                         <div class="col-12 col-md-4 deebug">
-                            <div class="content deebug text-white">
+                            <div class="content text-white">
                                 <h3 class="d-inline-block">Boolean</h3><span class="rounded border-0 bg_opacity p-1 m-2">Piano Blaze</span>
                             </div>
                         </div>
                         <div class="col-12 col-md-4 deebug">
-                            <div class="content deebug text-white">
+                            <div class="content text-white">
                                 <h5>Studenti online negli ultimi 30 minuti</h5>
                                 <h2>125</h2>
                             </div>
@@ -68,17 +72,114 @@
             <div class="main-section-bottom">
                 <div class="container">
                     <div class="row g-3">
-                        <div class="col-12 col-lg-8 deebug">
-
+                        <div class="col-12 col-lg-8">
+                            <div class="content ">
+                                <div class="card">
+                                    <div class="card-header">
+                                      <h1>Prossime classi</h1>
+                                    </div>
+                                    <div class="card-body">
+                                        <table class="table">
+                                            <thead>
+                                                <tr>
+                                                    <td scope="col">Nome</td>
+                                                    <td scope="col" >Data di inizio</td>
+                                                    <td scope="col" >RDI</td>
+                                                    <td scope="col">Stato</td>
+                                                    <td scope="col">Azioni</td>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td scope="col">Nome</td>
+                                                    <td scope="col">15 Febbraio 2021</td>
+                                                    <td scope="col">20%</td>
+                                                    <td scope="col"><span class="badge text-bg-success">Done</span></td>
+                                                    <td scope="col">Azioni</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">Nome</td>
+                                                    <td scope="col">16 Febbraio 2021</td>
+                                                    <td scope="col">20%</td>
+                                                    <td scope="col">
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td scope="col">Azioni</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">Nome</td>
+                                                    <td scope="col">17 Febbraio 2021</td>
+                                                    <td scope="col">20%</td>
+                                                    <td scope="col">
+                                                        <span class="badge text-bg-warning text-white">Process</span>
+                                                    </td>
+                                                    <td scope="col">Azioni</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">Nome</td>
+                                                    <td scope="col">18 Febbraio 2021</td>
+                                                    <td scope="col">20%</td>
+                                                    <td scope="col">
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td scope="col">Azioni</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">Nome</td>
+                                                    <td scope="col">19 Febbraio 2021</td>
+                                                    <td scope="col">20%</td>
+                                                    <td scope="col">
+                                                        <span class="badge text-bg-danger text-white">failed</span>
+                                                    </td>
+                                                    <td scope="col">Azioni</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">Nome</td>
+                                                    <td scope="col">20 Febbraio 2021</td>
+                                                    <td scope="col">20%</td>
+                                                    <td scope="col">
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td scope="col">Azioni</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">Nome</td>
+                                                    <td scope="col">21 Febbraio 2021</td>
+                                                    <td scope="col">20%</td>
+                                                    <td scope="col">
+                                                        <span class="badge text-bg-danger text-white">failed</span>
+                                                    </td>
+                                                    <td scope="col">Azioni</td>
+                                                </tr>
+                                                <tr>
+                                                    <td scope="col">Nome</td>
+                                                    <td scope="col">22 Febbraio 2021</td>
+                                                    <td scope="col">20%</td>
+                                                    <td scope="col">
+                                                        <span class="badge text-bg-success">Done</span>
+                                                    </td>
+                                                    <td scope="col">Azioni</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div class="col-12 col-lg-4 deebug">
-                            
+                            <div class="content">
+                                
+                            </div>
                         </div>
                         <div class="col-12 col-lg-8 deebug">
-                            
+                            <div class="content">
+                                
+                            </div>
                         </div>
                         <div class="col-12 col-lg-4 deebug">
-                            
+                            <div class="content">
+                                
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -23,13 +23,14 @@ main {
 
 .side-bar{
     height: calc(100vh - 70px);
-    width: 80px;
+    width: 120px;
     background-color: rgba(1, 4, 48, 0.616);   
 }
 
 .main-section{
     height: calc(100vh - 70px);
-    width: calc(100vw - 80px);
+    width: calc(100vw - 120px);
+    overflow-y: auto;
 }
 
 
@@ -37,5 +38,11 @@ main {
 
 .side-bar{
     background-image: url(../img/sidebar-bg.png);
-    
+    }
+
+.classe{
+    width: 30%;
+}
+.classe img{
+    width: 10%;
 }
