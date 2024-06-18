@@ -13,6 +13,7 @@
 
 header{
     height: 70px;
+
 }
 
 main {
@@ -29,8 +30,8 @@ main {
 .main-section{
     height: calc(100vh - 70px);
     width: calc(100vw - 80px);
-    background-color: rgb(209, 29, 29);
 }
+
 
 /*CONTENT'S STYLE*/
 
