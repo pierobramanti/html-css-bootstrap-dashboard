@@ -9,9 +9,10 @@
     border: 1px solid black;
 }
 
+/*LAYOUT*/
+
 header{
     height: 70px;
-    background-color:yellow ;
 }
 
 main {
@@ -22,11 +23,18 @@ main {
 .side-bar{
     height: calc(100vh - 70px);
     width: 80px;
-    background-color: rgb(55, 60, 121);   
+    background-color: rgba(1, 4, 48, 0.616);   
 }
 
 .main-section{
     height: calc(100vh - 70px);
     width: calc(100vw - 80px);
     background-color: rgb(209, 29, 29);
+}
+
+/*CONTENT'S STYLE*/
+
+.side-bar{
+    background-image: url(../img/sidebar-bg.png);
+    
 }
