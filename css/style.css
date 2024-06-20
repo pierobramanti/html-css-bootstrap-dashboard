@@ -33,6 +33,11 @@ main {
     overflow-y: auto;
 }
 
+.bg-blue{
+    background-color: rgb(26, 26, 172);
+    opacity: 75%;
+}
+
 /*UTILITIES*/
 
 .max-width-20{
